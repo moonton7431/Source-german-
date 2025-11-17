@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_ritualName(p=2)->[memeAdjective] [funeral]</li>
+    <li>r_ritualName->[funeral] of [chosenTheme]</li>
+    <li>r_ritualName->[chosenAdjective] [funeral]</li>
+    <li>r_ritualName->[keyDeity]'s [funeral]</li>
+    <li>r_ritualName->[funeral] of [keyDeity]</li>
+    <li>r_ritualName->[funeral] of [memeConcept]</li>
+    <li>r_ritualName->[funeral] of [chosenIdeoName]</li>
+    <li>r_ritualName(p=0.01)->funeral</li>
+    <li>funeral->funeral</li>
+    <li>funeral->mourning</li>
+    <li>funeral->eulogy</li>
+    <li>funeral->burial</li>
+    <li>funeral->interment</li>
+    <li>funeral->requiem</li>
+  -->
+  <NamerRitualFuneral.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->{replace: [funeralGender]; "|M|"-"[memeAdjective]er "; "|F|"-"[memeAdjective]e "; "|N|"-"[memeAdjective]es "}</li>
+    <li>r_ritualName(p=2)->[memeComPrefix][funeralComSuffix]</li>
+    <li>r_ritualName(p=2)->[memeHyphenPrefix]-[funeral]</li>
+    <li>r_ritualName->[funeral] [chosenTheme]</li>
+    <li>r_ritualName->{replace: [funeralGender]; "|M|"-"[chosenAdjective]er "; "|F|"-"[chosenAdjective]e "; "|N|"-"[chosenAdjective]es "}</li>
+    <li>r_ritualName->{replace: [keyDeity]'s; "Gott's"-"Gottes"} [funeral]</li>
+    <li>r_ritualName->[funeral] {replace: von [keyDeity]; "von Gott"-"Gottes"; "von Christus"-"Christi"; "von Jesus"-"Jesu"}</li>
+    <li>r_ritualName->[funeral] {replace: [memeConceptGenGender]; "|M|"-"des "; "|F|"-"der "; "|N|"-"des "}</li>
+    <!-- <li>r_ritualName->[funeral] {replace: des [chosenIdeoName]; "des |M|"-"des "; "des |F|"-"der "; "des |N|"-"des "}</li> -->
+    <li>r_ritualName(priority=-1)->[funeral]</li>
+    <li>funeral->Beerdigung</li>
+    <li>funeral->Bestattung</li>
+    <li>funeral->Beisetzung</li>
+    <li>funeral->Totenmesse</li>
+    <li>funeral->Trauerrede</li>
+    <li>funeral->Grabrede</li>
+    <li>funeral->Begräbnis</li>
+    <li>funeral->Requiem</li>
+    <li>funeralComSuffix->beerdigung</li>
+    <li>funeralComSuffix->bestattung</li>
+    <li>funeralComSuffix->beisetzung</li>
+    <li>funeralComSuffix->messe</li>
+    <li>funeralComSuffix->rede</li>
+    <li>funeralComSuffix->begräbnis</li>
+    <li>funeralComSuffix->requiem</li>
+    <li>funeralGender->|F|Beerdigung</li>
+    <li>funeralGender->|F|Bestattung</li>
+    <li>funeralGender->|F|Beisetzung</li>
+    <li>funeralGender->|F|Totenmesse</li>
+    <li>funeralGender->|F|Trauerrede</li>
+    <li>funeralGender->|F|Grabrede</li>
+    <li>funeralGender->|N|Begräbnis</li>
+    <li>funeralGender->|N|Requiem</li>
+  </NamerRitualFuneral.rulePack.rulesStrings>
+  
+</LanguageData>

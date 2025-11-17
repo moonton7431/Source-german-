@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_ritualName->[ritNoun] of [keyDeity]</li>
+    <li>r_ritualName->[ritNoun] of [chosenTheme]</li>
+    <li>r_ritualName->[ritNoun] of [memeConcept]</li>
+    <li>r_ritualName->[memeAdjective] [ritNoun]</li>
+    <li>ritNoun->mutilation</li>
+    <li>ritNoun->cutting</li>
+    <li>ritNoun->slicing</li>
+    <li>ritNoun->peeling</li>
+    <li>ritNoun->bladerip</li>
+    <li>ritNoun->ripping</li>
+    <li>ritNoun->mangling</li>
+    <li>ritNoun->fleshcarving</li>
+    <li>ritNoun->gashing</li>
+    <li>ritNoun->rend</li>
+  -->
+  <NamerRitualMutilation.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->{replace: [ritNounGender]; "|M|"-"[memeAdjective]er "; "|F|"-"[memeAdjective]e "; "|N|"-"[memeAdjective]es "}</li>
+    <li>r_ritualName(p=2)->[memeComPrefix][ritNounComSuffix]</li>
+    <li>r_ritualName(p=2)->[memeHyphenPrefix]-[ritNoun]</li>
+    <li>r_ritualName->[ritNoun] [chosenTheme]</li>
+    <li>r_ritualName->{replace: [ritNounGender]; "|M|"-"[chosenAdjective]er "; "|F|"-"[chosenAdjective]e "; "|N|"-"[chosenAdjective]es "}</li>
+    <li>r_ritualName->{replace: [keyDeity]'s; "Gott's"-"Gottes"} [ritNoun]</li>
+    <li>r_ritualName->[ritNoun] {replace: von [keyDeity]; "von Gott"-"Gottes"; "von Christus"-"Christi"; "von Jesus"-"Jesu"}</li>
+    <li>r_ritualName->[ritNoun] {replace: [memeConceptGenGender]; "|M|"-"des "; "|F|"-"der "; "|N|"-"des "}</li>
+    <li>r_ritualName(priority=-1)->[ritNoun]</li>
+    <li>ritNoun->Verstümmelung</li>
+    <li>ritNoun->Transformation</li>
+    <li>ritNoun->Deformation</li>
+    <li>ritNoun->Deformierung</li>
+    <li>ritNoun->Disfiguration</li>
+    <li>ritNoun->Mutilation</li>
+    <li>ritNounGender->|F|Verstümmelung</li>
+    <li>ritNounGender->|F|Transformation</li>
+    <li>ritNounGender->|F|Deformation</li>
+    <li>ritNounGender->|F|Deformierung</li>
+    <li>ritNounGender->|F|Disfiguration</li>
+    <li>ritNounGender->|F|Mutilation</li>
+    <li>ritNounComSuffix->verstümmelung</li>
+    <li>ritNounComSuffix->transformation</li>
+    <li>ritNounComSuffix->deformation</li>
+    <li>ritNounComSuffix->deformierung</li>
+    <li>ritNounComSuffix->disfiguration</li>
+    <li>ritNounComSuffix->mutilation</li>
+  </NamerRitualMutilation.rulePack.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: inhuman -->
+  <Inhuman.label>unmenschlich</Inhuman.label>
+  <!-- EN: Humanity is a barrier to our connection with the machine god and its pleasurable rewards. -->
+  <Inhuman.description>Die Menschlichkeit hindert uns daran, mit dem Maschinengott und seinen verlockenden Belohnungen in Verbindung zu treten.</Inhuman.description>
+  <!-- EN:
+    <li>memeAdjective->inhuman</li>
+    <li>memeAdjective->unhuman</li>
+    <li>memeAdjective->machine</li>
+    <li>memeAdjective->dark</li>
+    <li>memeConcept->inhumanity</li>
+    <li>memeConcept->darkness</li>
+    <li>memeConcept->void</li>
+    <li>memeConcept->entities</li>
+    <li>memeConcept->rage</li>
+  -->
+  <Inhuman.generalRules.rulesStrings>
+    <li>memeAdjective->unmenschlich</li>
+    <li>memeAdjective->inhuman</li>
+    <li>memeAdjective->entmenscht</li>
+    <li>memeAdjective->dunkl</li>
+    <li>memeAdjective->finster</li>
+    <li>memeHyphenPrefix->apatho</li>
+    <li>memeConcept->Unmenschlichkeit</li>
+    <li>memeConcept->Inhumanität</li>
+    <li>memeConcept->Entmenschlichung</li>
+    <li>memeConcept->Dunkelheit</li>
+    <li>memeConcept->Finsternis</li>
+    <li>memeConcept->Leere</li>
+    <li>memeConcept->Entitäten</li>
+    <li>memeConcept->Wut</li>
+    <li>memeConceptGender->|F|Unmenschlichkeit</li>
+    <li>memeConceptGender->|F|Inhumanität</li>
+    <li>memeConceptGender->|F|Entmenschlichung</li>
+    <li>memeConceptGender->|F|Dunkelheit</li>
+    <li>memeConceptGender->|F|Finsternis</li>
+    <li>memeConceptGender->|F|Leere</li>
+    <li>memeConceptGender->|F|Entitäten</li>
+    <li>memeConceptGender->|F|Wut</li>
+    <li>memeConceptGenGender->|F|Unmenschlichkeit</li>
+    <li>memeConceptGenGender->|F|Inhumanität</li>
+    <li>memeConceptGenGender->|F|Entmenschlichung</li>
+    <li>memeConceptGenGender->|F|Dunkelheit</li>
+    <li>memeConceptGenGender->|F|Finsternis</li>
+    <li>memeConceptGenGender->|F|Leere</li>
+    <li>memeConceptGenGender->|F|Entitäten</li>
+    <li>memeConceptGenGender->|F|Wut</li>
+  </Inhuman.generalRules.rulesStrings>
+  
+  <!-- EN: ritualist -->
+  <Ritualist.label>Ritualist</Ritualist.label>
+  <!-- EN: There is a greater energy in the universe. Through ritual we can understand it and harness its power. -->
+  <Ritualist.description>Es gibt eine größere Energie im Universum. Durch Rituale können wir sie verstehen und ihre Kraft nutzbar machen.</Ritualist.description>
+  <!-- EN:
+    <li>memeAdjective->ritual</li>
+    <li>memeConcept->ritual</li>
+    <li>memeMoralist->ritualist</li>
+  -->
+  <Ritualist.generalRules.rulesStrings>
+    <li>memeAdjective->rituell</li>
+    <li>memeHyphenPrefix->culto</li>
+    <li>memeComPrefix->Ritual</li>
+    <li>memeConcept->Ritual</li>
+    <li>memeConcept->Ritus</li>
+    <li>memeConceptGender->|N|Ritual</li>
+    <li>memeConceptGender->|F|Rituale</li>
+    <li>memeConceptGender->|M|Ritus</li>
+    <li>memeConceptGender->|F|Riten</li>
+    <li>memeConceptGenGender->|N|Rituals</li>
+    <li>memeConceptGenGender->|F|Rituale</li>
+    <li>memeConceptGenGender->|M|Ritus</li>
+    <li>memeConceptGenGender->|F|Riten</li>
+    <li>memeMoralist->Ritualist</li>
+    <li>memeMoralistGender->|M|Ritualist</li>
+    <li>memeMoralistComSuffix->ritualist</li>
+  </Ritualist.generalRules.rulesStrings>
+  
+</LanguageData>

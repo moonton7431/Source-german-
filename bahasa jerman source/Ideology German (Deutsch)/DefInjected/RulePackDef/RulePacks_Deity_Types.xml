@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_deityType->[god] of [memeConcept]</li>
+    <li>god(p=7, gender!=Female)->God</li>
+    <li>god(p=7, gender==Female)->Goddess</li>
+    <li>god(p=4)->[memeGod]</li>
+    <li>god(p=3)->Spirit</li>
+    <li>god->Creator</li>
+    <li>god->Master</li>
+  -->
+  <DeityTypeMakerGlobal.rulePack.rulesStrings>
+    <li>r_deityType->[god] {replace: [memeConceptGenGender]; "|M|"-"des "; "|F|"-"der "; "|N|"-"des "}</li>
+    <li>r_deityType(priority=-1)->[god]</li>
+    <li>god(p=7, gender!=Female)->Gott</li>
+    <li>god(p=7, gender==Female)->Göttin</li>
+    <li>god(p=4)->[memeGod]</li>
+    <li>god(p=3)->Geist</li>
+    <li>god(gender!=Female)->Schöpfer</li>
+    <li>god(gender==Female)->Schöpferin</li>
+    <li>god(gender!=Female)->Herr</li>
+    <li>god(gender==Female)->Herrin</li>
+    <li>god(gender!=Female)->Meister</li>
+    <li>god(gender==Female)->Meisterin</li>
+  </DeityTypeMakerGlobal.rulePack.rulesStrings>
+  
+</LanguageData>

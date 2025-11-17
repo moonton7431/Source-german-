@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_ritualName(p=2)->[memeAdjective] [sacrifice]</li>
+    <li>r_ritualName->[sacrifice] of [chosenTheme]</li>
+    <li>r_ritualName->[chosenAdjective] [sacrifice]</li>
+    <li>r_ritualName->[keyDeity]'s [sacrifice]</li>
+    <li>r_ritualName->[sacrifice] of [keyDeity]</li>
+    <li>r_ritualName->[sacrifice] of [memeConcept]</li>
+    <li>r_ritualName->[sacrifice] of [chosenIdeoName]</li>
+    <li>sacrifice->sacrifice</li>
+    <li>sacrifice->offering</li>
+    <li>sacrifice->immolation</li>
+    <li>sacrifice->oblation</li>
+    <li>sacrifice->slaughtering</li>
+  -->
+  <NamerRitualSacrifice.rulePack.rulesStrings>
+    <li>r_ritualName(p=2)->{replace: [sacrificeGender]; "|M|"-"[memeAdjective]er "; "|F|"-"[memeAdjective]e "; "|N|"-"[memeAdjective]es "}</li>
+    <li>r_ritualName(p=2)->[memeComPrefix][sacrificeComSuffix]</li>
+    <li>r_ritualName(p=2)->[memeHyphenPrefix]-[sacrifice]</li>
+    <li>r_ritualName->[sacrifice] [chosenTheme]</li>
+    <li>r_ritualName->{replace: [sacrificeGender]; "|M|"-"[chosenAdjective]er "; "|F|"-"[chosenAdjective]e "; "|N|"-"[chosenAdjective]es "}</li>
+    <li>r_ritualName->{replace: [keyDeity]'s; "Gott's"-"Gottes"} [sacrifice]</li>
+    <li>r_ritualName->[sacrifice] {replace: von [keyDeity]; "von Gott"-"Gottes"; "von Christus"-"Christi"; "von Jesus"-"Jesu"}</li>
+    <li>r_ritualName->[sacrifice] {replace: [memeConceptGenGender]; "|M|"-"des "; "|F|"-"der "; "|N|"-"des "}</li>
+    <!-- <li>r_ritualName->[sacrifice] {replace: des [chosenIdeoName]; "des |M|"-"des "; "des |F|"-"der "; "des |N|"-"des "}</li> -->
+    <li>r_ritualName(priority=-1)->[sacrifice]</li>
+    <li>sacrifice->Opferung</li>
+    <li>sacrifice->Opfer</li>
+    <li>sacrifice->Sakrifizium</li>
+    <li>sacrifice->Schlachtung</li>
+    <li>sacrificeComSuffix->opferung</li>
+    <li>sacrificeComSuffix->opfer</li>
+    <li>sacrificeComSuffix->sakrifizium</li>
+    <li>sacrificeGender->|F|Opferung</li>
+    <li>sacrificeGender->|N|Opfer</li>
+    <li>sacrificeGender->|N|Sakrifizium</li>
+    <li>sacrificeGender->|F|Schlachtung</li>
+  </NamerRitualSacrifice.rulePack.rulesStrings>
+  
+</LanguageData>
